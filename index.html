@@ -17,13 +17,25 @@
 			}
 	  
 			.video-title {
-			  width: 300px;
+			  margin-top: 0;
 			}
 			.video-preview{
 				width: 300px;
 				display: inline-block;
 				vertical-align: top;
 				margin-right: 15px;
+			}
+			.channel-picture{
+				display: inline-block;
+				width: 50px;
+				vertical-align: top;
+			}
+			.video-info{
+				display: inline-block;
+				width: 200px;
+			}
+			.profile-picture{
+				width: 100%;
 			}
 		  </style>
 	</head>
@@ -34,18 +46,28 @@
 			
 
 			<div class="video-preview">
-				<img class="thumbnail" src="thumbnails/thumbnail1.jpg">
+				<div>
+					<img class="thumbnail" src="thumbnails/thumbnail1.jpg">
 		
+				</div>
+				<div>
+					<div class="channel-picture">
+						<img class="profile-picture" src="channel-pictures/channel-1.jpeg" alt="">
+					</div>
+					<div class="video-info">
+						
+					<p class="video-title">
+						ian - 60 de zile (feat. amuly) | slowed
+					</p>
+					<p class="video-author">
+						slowesthetics
+					</p>
+					<p class="video-stats">
+					128K views &#183; 1 year ago
+					</p>
+					</div>
+				</div>
 		
-				<p class="video-title">
-					ian - 60 de zile (feat. amuly) | slowed
-				</p>
-				<p class="video-author">
-					slowesthetics
-				</p>
-				<p class="video-stats">
-				128K views &#183; 1 year ago
-				</p>
 			</div>
 			<div class="video-preview">
 				<img class="thumbnail" src="thumbnails/hq720.avif">
