@@ -35,7 +35,12 @@
 }
 .search-button {
 	height: 40px;
-	width: 60px;
+	width: 66px;
+	background-color: rgb(240, 240, 240);
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(190, 189, 189);
+	margin-left: -1px;
 }
 .voice-search-button {
 	width: 60px;
@@ -56,4 +61,9 @@
 .search-bar::placeholder {
 	font-family: Roboto, Arial;
 	font-size: 16px;
+}
+
+.search-icon {
+	height: 25px;
+	margin-top: 4px;
 }
