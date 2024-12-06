@@ -8,6 +8,9 @@
 	left: 0;
 	right: 0;
 	background-color: white;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-style: rgb(230, 221, 221);
 }
 .left-section {
 	align-items: center;
